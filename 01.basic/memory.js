@@ -13,8 +13,8 @@ console.log(anotheryoutubchannel);
 /* ex Heap memory */
 
 let Userone = {
-    email = "abhi@google.com",
-    upi = "abc12ybl"
+    email : "abhi@google.com",
+    upi : "abc12ybl"
 }
 let UserTwo = Userone
 UserTwo.email = "hiteshamzon.com";
