@@ -21,4 +21,7 @@ console.log(anotherString);
 
 const Newstring = "   abhishek ";
 console.log(Newstring);
-console.log(Newstring.trim()); // to remove strating and ending spaces 
+console.log(Newstring.trim()); // to remove strating and ending spaces
+
+const url = "https://abhishek.com/abhishek%07patil";
+console.log(url.replace("%07","-")); // replce values (search,toreplace)
