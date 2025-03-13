@@ -26,4 +26,4 @@ console.log(Newstring.trim()); // to remove strating and ending spaces
 const url = "https://abhishek.com/abhishek%07patil";
 console.log(url.replace("%07","-")); // replce values (search,toreplace)
 
-console.log(gameName.split("-")); // to convera or split a string in the forms of arraay
+console.log(gameName.split("-")); // to convera or split a string in the forms of array
