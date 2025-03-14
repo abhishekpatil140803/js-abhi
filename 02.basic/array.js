@@ -41,4 +41,5 @@ console.log("B " ,myarr);
 const myA2 = myarr.splice(1,3);
 console.log("C " ,myarr);
 
-console.log(myA2);
+console.log(myA2);  
+ 
