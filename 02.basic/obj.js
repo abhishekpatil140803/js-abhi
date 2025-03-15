@@ -79,3 +79,6 @@ console.log(tinder_user);
 console.log(Object.keys(tinder_user)); // ye object ki keys ko ek array ke form me deta he
 console.log(Object.values(tinder_user));
 console.log(Object.values(user));// values deta he
+console.log(tinder_user);
+console.log(Object.entries(tinder_user)); // ye entries or  unki values ko alag alag arr me convert karta he
+console.log(tinder_user.hasOwnProperty('isloggedin'));
