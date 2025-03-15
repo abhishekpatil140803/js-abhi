@@ -59,5 +59,23 @@ console.log(regulerobj.fullname.userfullname.firstname);
 
 const obj1  = {1: "a" ,2: "b" }
 const obj2  = {3: "a" ,4: "b" }
-const obj3 =Object.assign({},obj1,obj2);
+//const obj3 =Object.assign({},obj1,obj2); type one to add 
+const obj3 = {...obj1,...obj2} // type two 
 console.log(obj3);
+
+const user =[
+    {
+        id:1,
+        gamil:"sam@123.com"
+    },
+    {
+        id:2,
+        gmail:"samish@1853.com"
+    },
+]
+
+user.email
+console.log(tinder_user);
+console.log(Object.keys(tinder_user)); // ye object ki keys ko ek array ke form me deta he
+console.log(Object.values(tinder_user));
+console.log(Object.values(user));// values deta he
