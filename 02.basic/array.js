@@ -72,3 +72,4 @@ console.log(Array.from({name : "Abhishek"})); // intrasting
  let score4 =400;
 
  console.log(Array.of(score1,score2,score3,score4)); // ye bhi combine karta he multiple array ko
+ 
