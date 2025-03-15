@@ -1,6 +1,6 @@
 // Array
 
-const myarr = [2,3,5,6,8];
+/*const myarr = [2,3,5,6,8];
 const stringarr = ["abhi","anup","you"];
 
 const arr2 = new Array(5,6,8,7); // second type to declare array
@@ -42,4 +42,33 @@ const myA2 = myarr.splice(1,3);
 console.log("C " ,myarr);
 
 console.log(myA2);  
- 
+  */
+//+++++++++++++++++++++++// day two
+
+const marver_heros = ["thor","ironman","spiderman"];
+const dc_heros = ["superman","flash", "batman"];
+
+//marver_heros.push(dc_heros);
+console.log(marver_heros);
+console.log(dc_heros);
+
+
+const all_heros = marver_heros.concat(dc_heros); // combine 2 arrays into a single new array
+console.log(all_heros);
+
+const all_new_heros = [...marver_heros,...dc_heros]; // combine 2 and more arrays into a single new array
+console.log(all_new_heros);
+
+const anotherarr = [6,7,8,[1,2],[5,6,8,9,[7,5,6,[4,6,2]]]]; // sub array ko ek hi arr me kar deta he
+const newanothersrr = anotherarr.flat(Infinity);
+console.log(newanothersrr);
+
+console.log(Array.isArray("Abhishek"));// aray he ya nhi tru ya false me ans deta he 
+console.log(Array.from("Abhishek")); // arr me convert karta he 
+console.log(Array.from({name : "Abhishek"})); // intrasting
+ let score1 =100;
+ let score2 =200;
+ let score3 =300;
+ let score4 =400;
+
+ console.log(Array.of(score1,score2,score3,score4)); // ye bhi combine karta he multiple array ko
