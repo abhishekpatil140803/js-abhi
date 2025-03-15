@@ -20,4 +20,7 @@ console.log(jsuser[mysym]);
 
 jsuser.email = "hitesh123@.in";
 console.log(jsuser.email); // value change copy of
+Object.freeze(jsuser); // lock user obj
+jsuser.email = "mihitesh123@.in";
+console.log(jsuser.email); // no change aayega wahi
  
