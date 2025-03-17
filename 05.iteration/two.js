@@ -7,4 +7,3 @@ const Myobj = {
 for (const key in Myobj) {
     console.log(`${key}shotcut is for ${Myobj[key]}`);
     }
-///
